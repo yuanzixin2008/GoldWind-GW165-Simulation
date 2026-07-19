@@ -6,17 +6,17 @@ This project establishes a mathematical and aerodynamic simulation framework to 
 
 ## 🔧Simulation Phases
 
-### Phase 1   *🔍 [Explore Phase 1 Source Code]*
+### Phase 1   *🔍 [Explore Phase 1 Source Code](Traditional%20Turbine%20vs%20PMDD.py)*
 * **Focus**: Compare Permanent Magnet Direct-Drive (PMDD) system against traditional gear-driven turbines.
 * **Core Logic**: $P = \frac{1}{2} \cdot \rho \cdot A \cdot v^3 \cdot C_p \cdot \eta_{total}$
 * **Result**: PMDD system (without gearbox) improves the overall efficiency to 97%, eliminating mechanical wear and capturing more wind energy at mid-range wind speeds.
 ![Phase 1 Figure](comparison_curve_chart.png)
-### Phase 2    *🔍 [Explore Phase 2 Source Code]*
+### Phase 2    *🔍 [Explore Phase 2 Source Code](Summer%20vs%20Winter.py)*
 * **Focus**: The critical impact of seasonal air density changes ($\rho_{summer}=1.12$ , $\rho_{winter}=1.21$).
 * **Result**: Quantified the "Seasonal Gap" indicating that dense winter air allows the turbine to reach its 6000 kW rated capacity at a lower rated wind speed (10.39 m/s) compared to summer (10.64 m/s).
 ![Phase 2 Figure](seasonal_curve_chart.png)
 
-### Phase 3 : Spatial Analysis(Turkey Wind Farm Sites)   *🔍 [Explore Phase 3 Source Code]*
+### Phase 3 : Spatial Analysis(Turkey Wind Farm Sites)   *🔍 [Explore Phase 3 Source Code](Turkey%20Wind%20Farms.py)*
 * **Focus**: Micro-siting resource evaluation across 8 different regions in Turkey at a constant wind speed of 10 m/s.
 * **Visual Optimization**: Cropped the axis to `[4000, 6000]` kW to explicitly highlight spatial variations caused purely by local elevation and air density differences.
 ![Phase 3 Figure](Turkey_bar_chart.png)
