@@ -1,4 +1,4 @@
-# Wind Turbine Performance & Efficiency Simulation
+# Project : Wind Turbine Performance & Efficiency Simulation
 > Based on the technical specifications of Goldwind **GW165-6.0** wind turbine.
 
 ## 📌Project Overview
