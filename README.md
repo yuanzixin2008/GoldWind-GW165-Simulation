@@ -91,12 +91,3 @@ Although the original site materials also contain information such as elevation 
 
 This is a simplified educational model rather than an official turbine-performance model. It does not include factors such as wake effects, detailed blade aerodynamics, pitch control, cut-in/cut-out behaviour, or turbulence losses.
 
-## Run
-
-```bash
-pip install -r requirements.txt
-
-python PMDD_vs_Geared.py
-python Summer_vs_Winter.py
-python Turkey_Wind_Farms.py
-```
